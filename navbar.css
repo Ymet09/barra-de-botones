@@ -1,0 +1,33 @@
+#part1 {
+  height: 75px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border: 2px rgb(24, 24, 24) solid;
+  display: flex;
+  border-radius: 5px;
+}
+#part2 {
+  height: 30px;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px #222 solid;
+  margin: 10px;
+  border-radius: 2px;
+  transition: transform 0.3s;
+  cursor: default;
+  text-decoration: none;
+  color: white;
+}
+
+#part2:hover {
+  transform: scale(1.1);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
